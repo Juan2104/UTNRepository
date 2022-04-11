@@ -4,21 +4,104 @@ h1{
 }
 
 #Parrafo1{
-    background-color: aqua;
     padding: 0,5 rem;
+    border-style: outset;
+    margin-left:25%;
+    padding:1px 16px;
+    height:200px;
     
 }
 
-h3{
-    color:blue;
+#Parrafo2{
+    padding: 0,5 rem;
+    border-style: outset;
+    margin-left:25%;
+    padding:1px 16px;
+    height:200px;
+    
+}
+
+#Parrafo3{
+    padding: 0,5 rem;
+    margin-left:25%;
+    padding:1px 10px;
+    height:200px;
+    border-style: outset;
+    
+}
+
+#Parrafo4{
+    padding: 0,5 rem;
+    border-style: outset ;
+    margin-left:25%;
+    padding:1px 16px;
+    height:200px;
+    
+}
+
+h4{
+    color:black;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 h2{
     
-  font-family: Arial, Helvetica, Sans-serif;
-  color: white;
-  background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-left: 10px solid #ef5552;
+  text-decoration: underline
 }
 
 
+
+
+
+body {
+    margin: 0;
+    border-style: outset;
+  }
+  
+  .ulbar {
+    list-style-type: square;    
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #ef5552;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-style: outset;
+    border-color: Grey;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    
+  }
+  
+  li a.active {
+    background-color: Grey;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: Grey;
+    color: white;
+  }
+
+
+
+  
+input[type=range] {
+  accent-color: rgb(0, 0, 255);
+}
+
+progress {
+  accent-color: hsl(39, 100%, 50%);
+}
