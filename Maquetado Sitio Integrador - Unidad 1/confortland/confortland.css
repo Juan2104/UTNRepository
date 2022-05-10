@@ -1,0 +1,51 @@
+header{
+    background-color: #660033;
+    padding: 16px 0;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav{
+    background-color: #a00050;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px;
+    margin:0 auto;
+}
