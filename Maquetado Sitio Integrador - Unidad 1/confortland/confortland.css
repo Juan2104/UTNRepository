@@ -1,6 +1,8 @@
 header{
-    background-color: #660033;
-    padding: 16px 0;
+    background-image: url("img/imagen3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0;
 }
 
 header h1{
@@ -15,7 +17,9 @@ header h1{
 }
 
 nav{
-    background-color: #a00050;
+    
+    background-color: #AF601A;
+
     margin-bottom: 20px;
 }
 
@@ -37,7 +41,7 @@ nav ul li a {
 }
 
 footer{
-    background-color: #ccc;
+    background-color: #F0B27A;
     clear: both;
     color: #333;
     text-align: center;
@@ -51,6 +55,58 @@ footer{
 }
 
 h2{
-    color:#2e64a1;
+    color:#AF601A;
     font-weight: 400;
 }
+
+.bienvenidos{
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.imagenbienvenidos{
+    width: 35%;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio{
+    font-size: 30px;
+    border: 1px solid #AF601A;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap:32px;
+    align-items: center;
+}
+
+.servicio .info h4{
+    
+    font-size: 25px;
+    color: #AF601A;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #AF601A;
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 15px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 150px;
+}
+
+
