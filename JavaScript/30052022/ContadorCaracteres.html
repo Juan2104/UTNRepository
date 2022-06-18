@@ -1,0 +1,45 @@
+<script>
+
+	function contarcaracteres(){
+		var valor=document.getElementById('contador');
+		var respuesta=document.getElementById('res');
+		var cantidad=valor.value.length;
+		document.getElementById('res').innerHTML = cantidad + ' Caracteres contados, Restan ' + (total - cantidad) ;
+		if(cantidad>total){
+			respuesta.style.color = "red";
+		}
+		else {
+			respuesta.style.color = "black";
+		}
+		
+
+	}
+</script>
+
+<body>
+    <script>
+        var total
+               total=prompt('Ingresar un número para el contador de caracteres', '')
+    
+    </script>
+    <label for="contador">Contador de caracteres:</label>
+    <textarea name="contador" id="contador" onpaste="contarcaracteres();" onkeyup="contarcaracteres();"></textarea>
+    <div id="res">0 caractere/s</div>
+    
+    
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        textarea {
+            padding: 8px;
+            border: 1px solid #ddd;
+            width: 400px;
+            min-height: 100px;
+        }
+        label{
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+</body>
