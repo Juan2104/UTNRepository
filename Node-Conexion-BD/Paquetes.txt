@@ -1,0 +1,19 @@
+npx express-generator --view=hbs
+npm i
+npm i nodemon
+
+
+ "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+
+  EN PACKAGE.JSON
+
+
+  npm i mysql
+
+  npm i util
+
+  npm i dotenv
+
+  
